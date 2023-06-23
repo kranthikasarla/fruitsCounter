@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.heading {
+  font-size: 35px;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mango-fruit {
+  height: 400px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #007bff;
+  border-radius: 10px;
+  border-width: 0px;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.banana-fruit {
+  height: 400px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.counter {
+  color: #ffd569;
+  font-weight: bold;
+}
